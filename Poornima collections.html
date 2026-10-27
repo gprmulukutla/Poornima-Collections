@@ -1,0 +1,1161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head><script>window["__codeletBootstrap__"]=JSON.parse('{"A":"A","B":"20260804-05-57d9bf6","C":{"Abril Fatface":"YACgEZbkUVE,0","Alfa Slab One":"YACgEYS9sJU,0","Anton":"YACgEcYqQ-A,0","Archivo":"YAHO2-t-jNE,0","Arial":"YAGyDvJ_4Ts,0","Bebas Neue":"YACgESME5ew,0","Broken Glyph":"YADZ-exUkv0,0","Canva Sans":"YAFdJjTk5UU,0","Caveat":"YALBs2ploWQ,0","Comic Sans MS":"YAHO2VMiyZo,0","Cormorant Garamond":"YAFdJhX-538,0","Courier New":"YAGzXiGs0_8,0","DM Sans":"YAD1aU3sLnI,0","DM Serif Display":"YAD1aYG82rc,0","Forum":"YACgEcnnqB4,0","Fraunces":"YAEul-FRQw4,0","Georgia":"YAGzXkO0pEM,0","Ghost Mono":"YAHO2EIdDP0,0","Helvetica Neue":"YAFcf6CtJfI,0","Impact":"YAFcfnjI7Vk,0","Inter":"YAFdJvSyp_k,3","Iowan Old Style":"YAGNIFa8j9o,0","Jacques Francois":"YAHO2a5g66Q,0","JetBrains Mono":"YADy3sAhvXQ,0","Oleo Script":"YACgEQQ14jI,0","Playfair Display":"YAFdJhem5V8,1","Poppins":"YAE5fPSY9qM,0","Press Start 2P":"YAFyGr-8pmQ,0","Source Sans 3":"YAG4lO1Mj10,0","Space Grotesk":"YAHO2sjPCSM,0","Times New Roman":"YAGzXW3gftg,0","Times":"YAGzXW3gftg,0","Trebuchet MS":"YAFcfrglpVA,0","Verdana":"YAGzXTctYtQ,0","Work Sans":"YAGXhLOKv44,0","Yellowtail":"YACgEYG4kG4,0"}}');</script><script src="/_sdk/7949ff62d67710d5.telemetry_sdk.js" integrity="sha512-KIvXA82Di44YY/RH9/63A9MuTuavYgDFG8PfErJn7Wli4K0LAOk+coo/aPXk3+ZNL96nHh9VYD4PE+fLes+laQ=="></script>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Clothing Boutique — Indian Traditional</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            beige: '#F6F1EA',
+            lightGray: '#F7F8FA',
+            gold: '#F5C451'
+          },
+          fontFamily: {
+            serif: ['"Playfair Display"', 'ui-serif', 'Georgia', 'serif'],
+            sans: ['Inter', 'ui-sans-serif', 'system-ui', 'Arial', 'sans-serif'],
+            script: ['"Pacifico"', 'cursive']
+          },
+          boxShadow: {
+            soft: '0 10px 25px rgba(0,0,0,0.08)'
+          }
+        }
+      }
+    }
+  </script>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Pacifico&family=Playfair+Display:wght@500;600;700&display=swap" rel="stylesheet">
+  <style>
+    .hero-overlay { background: linear-gradient(180deg, rgba(255,255,255,0.70), rgba(255,255,255,0.45)); }
+    .transition-base { transition: all .25s ease; }
+    .accent-line { width: 2px; background: rgba(0,0,0,.15); }
+    .star::before { content: "★"; }
+    .ig-overlay { background: rgba(0,0,0,0.55); }
+    .no-scrollbar::-webkit-scrollbar { display: none; }
+    .no-scrollbar { -ms-overflow-style: none; scrollbar-width: none; }
+    .hero-studio {
+      background:
+      radial-gradient(circle at 30% 20%, rgba(0,0,0,.06), transparent 35%),
+      radial-gradient(circle at 70% 30%, rgba(0,0,0,.05), transparent 40%),
+      linear-gradient(180deg, #fafafa, #f3f3f3);
+    }
+  </style>
+<script src="/_sdk/0e8d3a91e1c6f495.data_sdk.js" integrity="sha512-c00oDoGjsMgluCLLEyVl3suwEkgjOGGplVFbsilUoBg4aMKNmsL3mwsc9r0dPn95qiSZyjBousQXgROkAW7p/w=="></script><script src="/_sdk/04cc6185e046f597.resizing_sdk.js" integrity="sha512-CiE/G92aQF0nxneFg1kdOvXih8sQ1Z2a2QI3+r/WvzJwQqH6+IyB3iL07OkJmpm3ABAaf07+FnqWny98f5sR6w=="></script></head>
+<body class="bg-white text-gray-900 font-sans antialiased">
+  <!-- Header -->
+  <header class="bg-white sticky top-0 z-50">
+    <div class="max-w-7xl mx-auto px-6">
+      <div class="flex items-center justify-between py-5">
+        <a href="#home" class="font-serif text-2xl md:text-3xl font-semibold tracking-tight" data-route="home">Clothing Boutique</a>
+        <!-- Desktop Nav -->
+        <nav class="hidden md:flex items-center gap-10 relative">
+          <a href="#home" class="uppercase tracking-widest text-sm text-gray-700 hover:text-black transition-base" data-route="home">Home</a>
+          <div class="relative group" id="shopMenu">
+            <a href="#shopPage" class="uppercase tracking-widest text-sm text-gray-700 hover:text-black transition-base" data-route="shop">Shop</a>
+            <!-- Mega dropdown -->
+            <div class="invisible opacity-0 group-hover:opacity-100 group-hover:visible transition-base absolute left-1/2 -translate-x-1/2 top-full mt-3 w-[820px] shadow-2xl bg-white border border-gray-200 rounded-2xl p-6">
+              <div class="grid grid-cols-5 gap-6 text-sm">
+                <div>
+                  <h5 class="font-semibold mb-2">Jewelleries</h5>
+                  <ul class="space-y-1">
+                    <li><a href="#" class="category-link hover:underline" data-category="Jewelleries">All Jewelleries</a></li>
+                    <li><a href="#" class="category-link hover:underline" data-category="Jewelleries>Necklaces">Necklaces</a></li>
+                    <li><a href="#" class="category-link hover:underline" data-category="Jewelleries>Earrings">Earrings</a></li>
+                  </ul>
+                </div>
+                <div>
+                  <h5 class="font-semibold mb-2">Home Decor</h5>
+                  <ul class="space-y-1">
+                    <li><a href="#" class="category-link hover:underline" data-category="Home Decor">All Home Decor</a></li>
+                    <li><a href="#" class="category-link hover:underline" data-category="Home Decor>Textiles">Textiles</a></li>
+                    <li><a href="#" class="category-link hover:underline" data-category="Home Decor>Accents">Accents</a></li>
+                  </ul>
+                </div>
+                <div>
+                  <h5 class="font-semibold mb-2">Sarees</h5>
+                  <ul class="space-y-1">
+                    <li><a href="#" class="category-link hover:underline" data-category="Sarees">All Sarees</a></li>
+                    <li><a href="#" class="category-link hover:underline" data-category="Sarees>Silk">Silk</a></li>
+                    <li><a href="#" class="category-link hover:underline" data-category="Sarees>Linen">Linen</a></li>
+                  </ul>
+                </div>
+                <div>
+                  <h5 class="font-semibold mb-2">Ready to Wear</h5>
+                  <ul class="space-y-1">
+                    <li><a href="#" class="category-link hover:underline" data-category="Ready to Wear">All Ready to Wear</a></li>
+                    <li><a href="#" class="category-link hover:underline" data-category="Ready to Wear>Kurtas">Kurtas</a></li>
+                    <li><a href="#" class="category-link hover:underline" data-category="Ready to Wear>Nehru Jackets">Nehru Jackets</a></li>
+                  </ul>
+                </div>
+                <div>
+                  <h5 class="font-semibold mb-2">Return Gifts</h5>
+                  <ul class="space-y-1">
+                    <li><a href="#" class="category-link hover:underline" data-category="Return Gifts">All Return Gifts</a></li>
+                    <li><a href="#" class="category-link hover:underline" data-category="Return Gifts>Dupattas">Dupattas</a></li>
+                    <li><a href="#" class="category-link hover:underline" data-category="Return Gifts>Stoles">Stoles</a></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+          <a href="#aboutPage" class="uppercase tracking-widest text-sm text-gray-700 hover:text-black transition-base" data-route="about">About</a>
+          <a href="#contactPage" class="uppercase tracking-widest text-sm text-gray-700 hover:text-black transition-base" data-route="contact">Contact</a>
+        </nav>
+        <!-- Icons -->
+        <div class="hidden md:flex items-center gap-6">
+          <button aria-label="Search" class="p-2 rounded-full hover:bg-gray-100 transition-base">
+            <svg class="w-5 h-5 text-gray-800" fill="none" stroke="currentColor" stroke-width="1.8" viewBox="0 0 24 24">
+              <circle cx="11" cy="11" r="7"></circle>
+              <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+            </svg>
+          </button>
+          <button aria-label="Cart" class="relative p-2 rounded-full hover:bg-gray-100 transition-base" id="openCart">
+            <svg class="w-5 h-5 text-gray-800" fill="none" stroke="currentColor" stroke-width="1.8" viewBox="0 0 24 24">
+              <path d="M6 6h15l-1.5 9h-12z"></path>
+              <circle cx="9" cy="20" r="1"></circle>
+              <circle cx="18" cy="20" r="1"></circle>
+            </svg>
+            <span id="cartBadge" class="hidden absolute -top-1 -right-1 bg-black text-white text-[10px] leading-none px-1.5 py-0.5 rounded-full">0</span>
+          </button>
+        </div>
+        <!-- Mobile controls -->
+        <div class="md:hidden flex items-center gap-3">
+          <button aria-label="Search" class="p-2 rounded-full hover:bg-gray-100 transition-base">
+            <svg class="w-6 h-6 text-gray-800" fill="none" stroke="currentColor" stroke-width="1.8" viewBox="0 0 24 24">
+              <circle cx="11" cy="11" r="7"></circle>
+              <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+            </svg>
+          </button>
+          <button aria-label="Cart" class="relative p-2 rounded-full hover:bg-gray-100 transition-base" id="openCartM">
+            <svg class="w-6 h-6 text-gray-800" fill="none" stroke="currentColor" stroke-width="1.8" viewBox="0 0 24 24">
+              <path d="M6 6h15l-1.5 9h-12z"></path>
+              <circle cx="9" cy="20" r="1"></circle>
+              <circle cx="18" cy="20" r="1"></circle>
+            </svg>
+            <span id="cartBadgeM" class="hidden absolute -top-1 -right-1 bg-black text-white text-[10px] leading-none px-1.5 py-0.5 rounded-full">0</span>
+          </button>
+          <button id="menuToggle" class="p-2 rounded-md border border-gray-200 hover:bg-gray-50 transition-base" aria-label="Toggle menu">
+            <svg id="menuIcon" class="w-6 h-6 text-gray-900" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+              <path d="M4 6h16M4 12h16M4 18h16"/>
+            </svg>
+          </button>
+        </div>
+      </div>
+    </div>
+    <div class="h-px bg-gray-200 w-full"></div>
+
+    <!-- Mobile Nav Drawer -->
+    <div id="mobileNav" class="md:hidden hidden bg-white border-t border-gray-100">
+      <div class="px-6 py-4 flex flex-col gap-3">
+        <a href="#home" class="uppercase tracking-widest text-sm py-2 text-gray-800" data-route="home">Home</a>
+        <a href="#shopPage" class="uppercase tracking-widest text-sm py-2 text-gray-800" data-route="shop">Shop</a>
+        <a href="#aboutPage" class="uppercase tracking-widest text-sm py-2 text-gray-800" data-route="about">About</a>
+        <a href="#contactPage" class="uppercase tracking-widest text-sm py-2 text-gray-800" data-route="contact">Contact</a>
+      </div>
+      <div class="h-px bg-gray-200"></div>
+    </div>
+  </header>
+
+  <!-- CART DRAWER -->
+  <div id="cartDrawer" class="fixed inset-0 z-[60] hidden">
+    <div id="cartBackdrop" class="absolute inset-0 bg-black/40 opacity-0 transition-base"></div>
+    <aside id="cartPanel" class="absolute right-0 top-0 h-full w-full sm:w-[420px] bg-white shadow-2xl translate-x-full transition-base flex flex-col">
+      <div class="p-5 border-b border-gray-200 flex items-center justify-between">
+        <h3 class="font-serif text-2xl">Your Bag</h3>
+        <button id="closeCart" class="p-2 rounded-md hover:bg-gray-100" aria-label="Close bag">
+          <svg class="w-5 h-5" viewBox="0 0 24 24" stroke="currentColor" fill="none" stroke-width="2">
+            <path d="M6 6l12 12M18 6l-12 12"/>
+          </svg>
+        </button>
+      </div>
+      <div id="cartItems" class="flex-1 overflow-y-auto no-scrollbar p-5 space-y-4"></div>
+      <!-- Recs popup -->
+      <div id="recsPopup" class="mx-5 mb-3 hidden">
+        <div class="bg-white border border-gray-200 rounded-2xl p-4 shadow-soft">
+          <div class="flex items-center justify-between">
+            <h4 class="font-semibold">Complete the look</h4>
+            <button id="recsClose" class="text-sm text-gray-500 hover:underline">Hide</button>
+          </div>
+          <div id="recsWrap" class="mt-3 grid grid-cols-2 gap-3"></div>
+        </div>
+      </div>
+      <div class="p-5 border-t border-gray-200">
+        <div class="flex items-center justify-between mb-4">
+          <span class="font-medium">Subtotal</span>
+          <span id="cartSubtotal" class="font-semibold">$0</span>
+        </div>
+        <button class="w-full bg-black text-white py-3 rounded-full hover:opacity-90 transition-base">Checkout (Demo)</button>
+        <p class="mt-3 text-xs text-gray-500">This is a demo cart for preview purposes only.</p>
+      </div>
+    </aside>
+  </div>
+
+  <!-- HOME PAGE -->
+  <main id="home" class="page">
+    <!-- Hero with picture-like background behind text -->
+    <section class="relative">
+      <div class="relative h-[68vh] md:h-[80vh] w-full overflow-hidden hero-studio">
+        <div class="absolute inset-0 flex items-end justify-end p-6 md:p-10">
+          <!-- simple inline SVG figure to imply studio shot -->
+          <svg viewBox="0 0 300 300" class="w-56 md:w-80 h-auto opacity-90">
+            <defs>
+              <linearGradient id="g1" x1="0" x2="0" y1="0" y2="1">
+                <stop offset="0%" stop-color="#ffffff"/>
+                <stop offset="100%" stop-color="#f0f0f0"/>
+              </linearGradient>
+            </defs>
+            <rect width="300" height="300" fill="url(#g1)"/>
+            <!-- light studio floor -->
+            <rect y="220" width="300" height="80" fill="#ededed"/>
+            <!-- figure wearing saree-like drape -->
+            <circle cx="170" cy="80" r="22" fill="#fac9a8"/>
+            <rect x="158" y="102" width="24" height="18" fill="#fac9a8"/>
+            <path d="M140 120 C130 190, 220 200, 210 130 L200 120 Z" fill="#8B1E3F" opacity="0.95"/>
+            <path d="M160 120 L200 120 L210 220 L150 220 Z" fill="#BF2C52" opacity="0.9"/>
+            <rect x="150" y="180" width="70" height="40" fill="#a92548" opacity="0.9"/>
+          </svg>
+        </div>
+
+        <!-- Overlay for readability -->
+        <div class="hero-overlay absolute inset-0"></div>
+
+        <!-- Centered content -->
+        <div class="relative z-10 h-full max-w-7xl mx-auto px-6 flex items-center justify-center">
+          <div class="flex items-center gap-6 md:gap-10">
+            <div class="hidden sm:block accent-line h-40 md:h-48"></div>
+            <div class="text-center">
+              <h1 class="font-serif text-4xl md:text-6xl font-semibold text-gray-900 tracking-tight">New Arrivals</h1>
+              <p class="mt-4 md:mt-6 text-gray-700 text-base md:text-lg">Discover the latest trends</p>
+              <button id="shopNowBtn" class="mt-6 md:mt-8 inline-flex items-center justify-center bg-black text-white px-7 py-3 rounded-full shadow-md hover:shadow-lg hover:-translate-y-0.5 transition-base" data-route="shop">
+                Shop Now
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Featured Collections (SVG image tiles) -->
+    <section class="bg-white py-16 md:py-24" id="collections">
+      <div class="max-w-7xl mx-auto px-6">
+        <h2 class="text-center font-serif text-3xl md:text-4xl font-semibold">Featured Collections</h2>
+        <div class="mt-10 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
+          <button class="group text-left" data-route="shop">
+            <div class="relative rounded-xl overflow-hidden aspect-[4/3] bg-white">
+              <div class="w-full h-full"><svg viewBox="0 0 400 300" class="w-full h-full"><rect width="400" height="300" fill="#f7f7f7"/><circle cx="120" cy="90" r="28" fill="#f6c5a3"/><path d="M80 120 L160 120 L175 260 L65 260 Z" fill="#8B1E3F"/><rect x="65" y="210" width="110" height="50" fill="#a92548"/></svg></div>
+              <div class="absolute inset-0 bg-black/0 group-hover:bg-black/35 transition-base flex items-center justify-center">
+                <span class="opacity-0 group-hover:opacity-100 text-white uppercase tracking-wider text-sm">Shop Collection</span>
+              </div>
+            </div>
+            <div class="pt-4 text-center">
+              <p class="font-medium">Sarees</p>
+            </div>
+          </button>
+
+          <button class="group text-left" data-route="shop">
+            <div class="relative rounded-xl overflow-hidden aspect-[4/3] bg-white">
+              <div class="w-full h-full"><svg viewBox="0 0 400 300" class="w-full h-full"><rect width="400" height="300" fill="#f5f5f5"/><circle cx="280" cy="90" r="28" fill="#f6c5a3"/><rect x="260" y="120" width="40" height="20" fill="#f6c5a3"/><rect x="230" y="120" width="100" height="140" fill="#1c4e80"/></svg></div>
+              <div class="absolute inset-0 bg-black/0 group-hover:bg-black/35 transition-base flex items-center justify-center">
+                <span class="opacity-0 group-hover:opacity-100 text-white uppercase tracking-wider text-sm">Shop Collection</span>
+              </div>
+            </div>
+            <div class="pt-4 text-center">
+              <p class="font-medium">Kurta Sets</p>
+            </div>
+          </button>
+
+          <button class="group text-left" data-route="shop">
+            <div class="relative rounded-xl overflow-hidden aspect-[4/3] bg-white">
+              <div class="w-full h-full"><svg viewBox="0 0 400 300" class="w-full h-full"><rect width="400" height="300" fill="#f4f4f4"/><circle cx="210" cy="90" r="28" fill="#f6c5a3"/><path d="M170 120 L250 120 L265 260 L155 260 Z" fill="#cc6e00"/></svg></div>
+              <div class="absolute inset-0 bg-black/0 group-hover:bg-black/35 transition-base flex items-center justify-center">
+                <span class="opacity-0 group-hover:opacity-100 text-white uppercase tracking-wider text-sm">Shop Collection</span>
+              </div>
+            </div>
+            <div class="pt-4 text-center">
+              <p class="font-medium">Lehengas</p>
+            </div>
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <!-- About (image updated via SVG) -->
+    <section id="about" class="bg-beige py-16 md:py-24">
+      <div class="max-w-7xl mx-auto px-6">
+        <div class="grid grid-cols-1 lg:grid-cols-12 gap-10 lg:gap-14 items-center">
+          <div class="lg:col-span-5">
+            <div class="rounded-2xl overflow-hidden shadow-soft bg-white">
+              <svg viewBox="0 0 800 600" class="w-full h-auto">
+                <rect width="800" height="600" fill="#f8f8f8"/>
+                <rect x="0" y="450" width="800" height="150" fill="#efefef"/>
+                <circle cx="260" cy="190" r="50" fill="#f4c3a0"/>
+                <rect x="220" y="240" width="80" height="40" fill="#f4c3a0"/>
+                <path d="M180 280 L340 280 L360 480 L160 480 Z" fill="#8B1E3F"/>
+              </svg>
+            </div>
+          </div>
+          <div class="hidden lg:flex lg:col-span-1 justify-center">
+            <div class="accent-line h-64"></div>
+          </div>
+          <div class="lg:col-span-6">
+            <h3 class="font-serif text-3xl md:text-4xl font-semibold">About Us</h3>
+            <p class="mt-5 text-gray-700 leading-relaxed">
+              We celebrate Indian craftsmanship with modern silhouettes. Curated sarees, lehengas, and kurtas are thoughtfully made to bring grace and comfort to every moment—from festive gatherings to everyday elegance.
+            </p>
+            <p class="mt-4 text-gray-700 leading-relaxed">
+              Thank you for supporting artisans and small-batch design. We’re honored to be part of your story.
+            </p>
+            <div class="mt-6">
+              <span class="font-script text-2xl text-gray-900">— Olivia Hart</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Shop by Category -->
+    <section class="bg-white py-16 md:py-24" id="shop">
+      <div class="max-w-7xl mx-auto px-6">
+        <h2 class="text-center font-serif text-3xl md:text-4xl font-semibold">Shop by Category</h2>
+        <div class="mt-10 grid grid-cols-2 md:grid-cols-4 gap-6 md:gap-8">
+          <button class="group bg-white rounded-xl p-6 shadow-sm hover:shadow-md transition-base border border-gray-100 text-center" data-route="shop" data-filter="Saree">
+            <div class="mx-auto w-20 h-20 rounded-lg overflow-hidden shadow-md group-hover:scale-105 transition-base bg-white flex items-center justify-center">
+              <svg viewBox="0 0 100 100" class="w-full h-full"><rect width="100" height="100" fill="#f6f6f6"/><circle cx="50" cy="25" r="10" fill="#f3c09a"/><rect x="38" y="40" width="24" height="20" fill="#8B1E3F"/></svg>
+            </div>
+            <p class="mt-4 text-xs tracking-[0.2em] uppercase">Dresses</p>
+          </button>
+          <button class="group bg-white rounded-xl p-6 shadow-sm hover:shadow-md transition-base border border-gray-100 text-center" data-route="shop" data-filter="Kurta">
+            <div class="mx-auto w-20 h-20 rounded-lg overflow-hidden shadow-md group-hover:scale-105 transition-base bg-white flex items-center justify-center">
+              <svg viewBox="0 0 100 100" class="w-full h-full"><rect width="100" height="100" fill="#f7f7f7"/><rect x="35" y="35" width="30" height="30" fill="#1c4e80"/></svg>
+            </div>
+            <p class="mt-4 text-xs tracking-[0.2em] uppercase">Tops</p>
+          </button>
+          <button class="group bg-white rounded-xl p-6 shadow-sm hover:shadow-md transition-base border border-gray-100 text-center" data-route="shop" data-filter="Dupatta">
+            <div class="mx-auto w-20 h-20 rounded-lg overflow-hidden shadow-md group-hover:scale-105 transition-base bg-white flex items-center justify-center">
+              <svg viewBox="0 0 100 100" class="w-full h-full"><rect width="100" height="100" fill="#f5f5f5"/><path d="M30 30 C25 60, 75 60, 70 30" fill="#cc6e00"/></svg>
+            </div>
+            <p class="mt-4 text-xs tracking-[0.2em] uppercase">Accessories</p>
+          </button>
+          <button class="group bg-white rounded-xl p-6 shadow-sm hover:shadow-md transition-base border border-gray-100 text-center" data-route="shop" data-filter="Sale">
+            <div class="mx-auto w-20 h-20 rounded-lg overflow-hidden shadow-md group-hover:scale-105 transition-base bg-white flex items-center justify-center">
+              <svg viewBox="0 0 100 100" class="w-full h-full"><rect width="100" height="100" fill="#f4f4f4"/><text x="50" y="55" text-anchor="middle" font-size="18" fill="#111">%</text></svg>
+            </div>
+            <p class="mt-4 text-xs tracking-[0.2em] uppercase">Sale</p>
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <!-- Featured Products -->
+    <section class="bg-lightGray py-16 md:py-24" id="products">
+      <div class="max-w-7xl mx-auto px-6">
+        <h2 class="text-center font-serif text-3xl md:text-4xl font-semibold">Featured Products</h2>
+        <div class="mt-10 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8" id="homeProducts">
+          <!-- Filled by JS -->
+        </div>
+      </div>
+    </section>
+
+    <!-- Testimonials -->
+    <section class="bg-white py-16 md:py-24">
+      <div class="max-w-7xl mx-auto px-6">
+        <h2 class="text-center font-serif text-3xl md:text-4xl font-semibold">What Our Customers Say</h2>
+        <div class="mt-10 grid grid-cols-1 md:grid-cols-3 gap-8">
+          <div class="rounded-2xl border border-gray-100 p-7 shadow-sm hover:shadow-md transition-base">
+            <div class="flex items-center gap-2 text-gray-300 mb-4">
+              <svg class="w-5 h-5" viewBox="0 0 24 24" fill="currentColor"><path d="M7 7h4v10H5V9a2 2 0 0 1 2-2zm10 0h4v10h-6V9a2 2 0 0 1 2-2z"/></svg>
+            </div>
+            <p class="italic text-center text-gray-700">“Exquisite sarees and super comfortable kurtas. Loved the packaging.”</p>
+            <div class="mt-5 text-center font-semibold">Maya R.</div>
+            <div class="mt-2 flex justify-center gap-1 text-gold">
+              <span class="star"></span><span class="star"></span><span class="star"></span><span class="star"></span><span class="star"></span>
+            </div>
+          </div>
+          <div class="rounded-2xl border border-gray-100 p-7 shadow-sm hover:shadow-md transition-base">
+            <div class="flex items-center gap-2 text-gray-300 mb-4">
+              <svg class="w-5 h-5" viewBox="0 0 24 24" fill="currentColor"><path d="M7 7h4v10H5V9a2 2 0 0 1 2-2zm10 0h4v10h-6V9a2 2 0 0 1 2-2z"/></svg>
+            </div>
+            <p class="italic text-center text-gray-700">“Great fit and lovely handfeel. Will be back for festive wear.”</p>
+            <div class="mt-5 text-center font-semibold">Alex P.</div>
+            <div class="mt-2 flex justify-center gap-1 text-gold">
+              <span class="star"></span><span class="star"></span><span class="star"></span><span class="star"></span><span class="star"></span>
+            </div>
+          </div>
+          <div class="rounded-2xl border border-gray-100 p-7 shadow-sm hover:shadow-md transition-base">
+            <div class="flex items-center gap-2 text-gray-300 mb-4">
+              <svg class="w-5 h-5" viewBox="0 0 24 24" fill="currentColor"><path d="M7 7h4v10H5V9a2 2 0 0 1 2-2zm10 0h4v10h-6V9a2 2 0 0 1 2-2z"/></svg>
+            </div>
+            <p class="italic text-center text-gray-700">“Beautiful pieces that feel special yet easy to wear.”</p>
+            <div class="mt-5 text-center font-semibold">Taylor S.</div>
+            <div class="mt-2 flex justify-center gap-1 text-gold">
+              <span class="star"></span><span class="star"></span><span class="star"></span><span class="star"></span><span class="star"></span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Newsletter -->
+    <section class="bg-beige py-16 md:py-24">
+      <div class="max-w-3xl mx-auto px-6 text-center">
+        <h3 class="font-serif text-3xl md:text-4xl font-semibold">Stay in the Loop</h3>
+        <p class="mt-3 text-gray-700">Be the first to hear about new drops, offers, and style tips.</p>
+        <form id="newsletterForm" class="mt-8 flex items-center justify-center gap-3 flex-col sm:flex-row">
+          <div class="flex items-center justify-center w-11 h-11 rounded-full bg-white shadow-sm border border-gray-100">
+            <svg class="w-5 h-5 text-gray-800" fill="none" stroke="currentColor" stroke-width="1.8" viewBox="0 0 24 24">
+              <path d="M3 7l9 6 9-6"/><path d="M21 7v10H3V7"/>
+            </svg>
+          </div>
+          <input required type="email" placeholder="Your email address" class="w-full sm:w-80 bg-white border border-gray-200 rounded-full px-5 py-3 focus:outline-none focus:border-gray-400 transition-base" />
+          <button type="submit" class="bg-black text-white px-6 py-3 rounded-full shadow-md hover:shadow-lg transition-base">Subscribe</button>
+        </form>
+        <p id="newsletterNote" class="mt-3 text-sm text-gray-600 hidden">Thanks! Please check your inbox to confirm.</p>
+      </div>
+    </section>
+
+    <!-- Instagram -->
+    <section class="bg-white py-16 md:py-24">
+      <div class="max-w-7xl mx-auto px-6">
+        <div class="flex flex-col items-center">
+          <div class="mb-3">
+            <svg class="w-7 h-7 text-gray-900" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+              <path d="M7 2h10a5 5 0 0 1 5 5v10a5 5 0 0 1-5 5H7a5 5 0 0 1-5-5V7a5 5 0 0 1 5-5zm0 2a3 3 0 0 0-3 3v10a3 3 0 0 0 3 3h10a3 3 0 0 0 3-3V7a3 3 0 0 0-3-3H7zm5 3.5A5.5 5.5 0 1 1 6.5 13 5.5 5.5 0 0 1 12 7.5zm0 2A3.5 3.5 0 1 0 15.5 13 3.5 3.5 0 0 0 12 9.5zM18 6.8a1 1 0 1 1-1 1 1 1 0 0 1 1-1z"/>
+            </svg>
+          </div>
+          <h2 class="text-center font-serif text-3xl md:text-4xl font-semibold">Follow Us on Instagram</h2>
+        </div>
+        <div class="mt-10 grid grid-cols-2 md:grid-cols-3 gap-4">
+          <div class="aspect-square rounded-xl overflow-hidden bg-gray-100"></div>
+          <div class="aspect-square rounded-xl overflow-hidden bg-gray-100"></div>
+          <div class="aspect-square rounded-xl overflow-hidden bg-gray-100"></div>
+          <div class="aspect-square rounded-xl overflow-hidden bg-gray-100"></div>
+          <div class="aspect-square rounded-xl overflow-hidden bg-gray-100"></div>
+          <div class="aspect-square rounded-xl overflow-hidden bg-gray-100"></div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- SHOP PAGE -->
+  <main id="shopPage" class="page hidden">
+    <section class="max-w-7xl mx-auto px-6 py-10 md:py-16">
+      <h2 class="font-serif text-3xl md:text-4xl font-semibold text-center md:text-left">Shop</h2>
+      <div class="mt-10 grid grid-cols-1 md:grid-cols-12 gap-8">
+        <!-- Filters Left -->
+        <aside class="md:col-span-3 bg-white border border-gray-200 rounded-2xl p-5 h-max">
+          <div class="space-y-6">
+            <div>
+              <h4 class="font-semibold">Price</h4>
+              <div class="mt-3">
+                <div class="flex items-center justify-between text-sm text-gray-600">
+                  <span>Min: $<span id="priceMinVal">0</span></span>
+                  <span>Max: $<span id="priceMaxVal">250</span></span>
+                </div>
+                <div class="mt-3 space-y-3">
+                  <input id="priceMin" type="range" min="0" max="250" value="0" step="5" class="w-full">
+                  <input id="priceMax" type="range" min="0" max="250" value="250" step="5" class="w-full">
+                </div>
+              </div>
+            </div>
+            <div>
+              <h4 class="font-semibold">Fabric</h4>
+              <div class="mt-3 space-y-2">
+                <label class="flex items-center gap-2"><input type="checkbox" value="Cotton" class="fabric"> Cotton</label>
+                <!-- Sub-options under Cotton -->
+                <div class="ml-6 mt-1 space-y-1 text-sm text-gray-700" id="cottonSubcats">
+                  <label class="flex items-center gap-2"><input type="checkbox" value="Cotton>Jewelleries" class="fabric-sub"> Jewelleries</label>
+                  <label class="flex items-center gap-2"><input type="checkbox" value="Cotton>Home Decor" class="fabric-sub"> Home Decor</label>
+                  <label class="flex items-center gap-2"><input type="checkbox" value="Cotton>Sarees" class="fabric-sub"> Sarees</label>
+                  <label class="flex items-center gap-2"><input type="checkbox" value="Cotton>Ready to Wear" class="fabric-sub"> Ready to Wear</label>
+                  <label class="flex items-center gap-2"><input type="checkbox" value="Cotton>Return Gifts" class="fabric-sub"> Return Gifts</label>
+                </div>
+                <label class="flex items-center gap-2"><input type="checkbox" value="Organza" class="fabric"> Organza</label>
+                <label class="flex items-center gap-2"><input type="checkbox" value="Silk" class="fabric"> Silk</label>
+                <label class="flex items-center gap-2"><input type="checkbox" value="Linen" class="fabric"> Linen</label>
+                <label class="flex items-center gap-2"><input type="checkbox" value="Georgette" class="fabric"> Georgette</label>
+                <label class="flex items-center gap-2"><input type="checkbox" value="Chiffon" class="fabric"> Chiffon</label>
+                <label class="flex items-center gap-2"><input type="checkbox" value="Velvet" class="fabric"> Velvet</label>
+                <label class="flex items-center gap-2"><input type="checkbox" value="Brocade" class="fabric"> Brocade</label>
+              </div>
+            </div>
+            <div>
+              <h4 class="font-semibold">Type</h4>
+              <div class="mt-3 space-y-2">
+                <label class="flex items-center gap-2"><input type="checkbox" value="Saree" class="type"> Saree</label>
+                <label class="flex items-center gap-2"><input type="checkbox" value="Kurta" class="type"> Kurta</label>
+                <label class="flex items-center gap-2"><input type="checkbox" value="Lehenga" class="type"> Lehenga</label>
+                <label class="flex items-center gap-2"><input type="checkbox" value="Dupatta" class="type"> Dupatta</label>
+              </div>
+            </div>
+            <button id="clearFilters" class="w-full text-sm underline text-gray-600 hover:text-black">Clear filters</button>
+          </div>
+        </aside>
+
+        <!-- Products Right -->
+        <section class="md:col-span-9">
+          <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-7" id="shopGrid">
+            <!-- Filled via JS from catalog -->
+          </div>
+        </section>
+      </div>
+    </section>
+
+    <!-- PRODUCT DETAILS DRAWER -->
+    <div id="productDrawer" class="fixed inset-0 z-[55] hidden">
+      <div id="pdBackdrop" class="absolute inset-0 bg-black/40 opacity-0 transition-base"></div>
+      <aside id="pdPanel" class="absolute right-0 top-0 h-full w-full md:w-[880px] bg-white shadow-2xl translate-x-full transition-base flex flex-col">
+        <div class="p-5 border-b border-gray-200 flex items-center justify-between">
+          <div class="flex items-center gap-3">
+            <button id="pdBack" class="p-2 rounded-md hover:bg-gray-100" aria-label="Back">
+              <svg class="w-5 h-5" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M15 18l-6-6 6-6"/></svg>
+            </button>
+            <h3 id="pdName" class="font-serif text-xl">Product</h3>
+          </div>
+          <button id="pdClose" class="p-2 rounded-md hover:bg-gray-100" aria-label="Close">
+            <svg class="w-5 h-5" viewBox="0 0 24 24" stroke="currentColor" fill="none" stroke-width="2"><path d="M6 6l12 12M18 6l-12 12"/></svg>
+          </button>
+        </div>
+        <div class="grid grid-cols-1 lg:grid-cols-2 gap-0 flex-1 overflow-y-auto">
+          <!-- Gallery -->
+          <div class="p-6">
+            <div class="relative rounded-2xl overflow-hidden bg-gray-100 group" id="zoomWrap">
+              <img id="pdMain" class="w-full h-[360px] md:h-[440px] object-cover transition-transform duration-200" alt="Main" src=""/>
+              <div id="zoomLens" class="pointer-events-none hidden absolute inset-0 ring-2 ring-black/10 rounded-2xl"></div>
+              <button id="pdPrev" class="absolute left-3 top-1/2 -translate-y-1/2 bg-white/90 rounded-full p-2 shadow">◄</button>
+              <button id="pdNext" class="absolute right-3 top-1/2 -translate-y-1/2 bg-white/90 rounded-full p-2 shadow">►</button>
+            </div>
+            <div id="pdThumbs" class="mt-4 grid grid-cols-4 gap-3"></div>
+          </div>
+          <!-- Info -->
+          <div class="p-6 border-t lg:border-t-0 lg:border-l border-gray-200 flex flex-col">
+            <h2 id="pdTitle" class="font-serif text-2xl"></h2>
+            <div class="mt-2 text-gray-900 font-semibold" id="pdPrice"></div>
+            <div class="mt-2 text-gray-600" id="pdMaterial"></div>
+            <p class="mt-4 text-gray-700" id="pdDesc"></p>
+
+            <div class="mt-6">
+              <h4 class="font-medium">Colors</h4>
+              <div id="pdColors" class="mt-2 flex flex-wrap gap-2"></div>
+            </div>
+
+            <div class="mt-6 flex items-center gap-3">
+              <button id="pdAdd" class="bg-black text-white px-6 py-3 rounded-full hover:opacity-90 transition-base">Add to bag</button>
+              <button id="pdOpenCart" class="px-5 py-3 rounded-full border border-gray-300 hover:bg-gray-50">Open bag</button>
+            </div>
+
+            <div class="mt-8">
+              <h4 class="font-medium">Reviews</h4>
+              <p class="mt-2 text-sm text-gray-600">No reviews yet.</p>
+            </div>
+          </div>
+        </div>
+      </aside>
+    </div>
+  </main>
+
+  <!-- ABOUT PAGE -->
+  <main id="aboutPage" class="page hidden">
+    <section class="max-w-7xl mx-auto px-6 py-10 md:py-16">
+      <h2 class="font-serif text-3xl md:text-4xl font-semibold">About</h2>
+      <div class="mt-8 grid grid-cols-1 lg:grid-cols-2 gap-10 items-center">
+        <div class="rounded-2xl overflow-hidden shadow-soft bg-white">
+          <svg viewBox="0 0 800 600" class="w-full h-auto">
+            <rect width="800" height="600" fill="#f8f8f8"/>
+            <rect x="0" y="450" width="800" height="150" fill="#efefef"/>
+            <circle cx="500" cy="190" r="50" fill="#f4c3a0"/>
+            <path d="M460 280 L620 280 L640 480 L440 480 Z" fill="#1c4e80"/>
+          </svg>
+        </div>
+        <div>
+          <p class="text-gray-700 leading-relaxed">
+            We partner with skilled artisans across India to bring heritage textiles into contemporary wardrobes. Each piece is crafted in small batches, focusing on detail, drape, and long-lasting quality.
+          </p>
+          <p class="mt-4 text-gray-700 leading-relaxed">
+            From Kanjivaram silks to airy cottons, our edit balances ceremony and ease. We hope you find your new forever favorite.
+          </p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- CONTACT PAGE -->
+  <main id="contactPage" class="page hidden">
+    <section class="max-w-7xl mx-auto px-6 py-10 md:py-16">
+      <h2 class="font-serif text-3xl md:text-4xl font-semibold">Contact</h2>
+      <div class="mt-8 grid grid-cols-1 md:grid-cols-2 gap-8">
+        <div class="bg-white border border-gray-200 rounded-2xl p-6">
+          <h4 class="font-semibold">Say hello</h4>
+          <p class="mt-2 text-gray-600">Email: hello@clothingboutique.com</p>
+          <p class="mt-1 text-gray-600">Phone: +1 (555) 012-3456</p>
+          <p class="mt-1 text-gray-600">Hours: Mon–Fri, 9am–5pm</p>
+        </div>
+        <div class="bg-white border border-gray-200 rounded-2xl p-6">
+          <h4 class="font-semibold">Visit us</h4>
+          <p class="mt-2 text-gray-600">123 Silk Road, Heritage District</p>
+          <div class="mt-4 rounded-xl overflow-hidden">
+            <div class="w-full h-56 bg-gray-100"></div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="bg-black text-white">
+    <div class="max-w-7xl mx-auto px-6 py-14">
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-10">
+        <div>
+          <div class="font-serif text-2xl font-semibold">Clothing Boutique</div>
+          <p class="mt-4 text-sm text-gray-300">Elevated essentials, thoughtfully made.</p>
+        </div>
+        <div>
+          <h4 class="uppercase tracking-widest text-xs text-gray-400">Explore</h4>
+          <div class="mt-4 flex flex-col gap-2">
+            <a href="#home" class="hover:text-white text-gray-300" data-route="home">Home</a>
+            <a href="#shopPage" class="hover:text-white text-gray-300" data-route="shop">Shop</a>
+            <a href="#aboutPage" class="hover:text-white text-gray-300" data-route="about">About</a>
+            <a href="#contactPage" class="hover:text-white text-gray-300" data-route="contact">Contact</a>
+          </div>
+        </div>
+        <div>
+          <h4 class="uppercase tracking-widest text-xs text-gray-400">Contact</h4>
+          <div class="mt-4 space-y-2 text-gray-300">
+            <p>hello@clothingboutique.com</p>
+            <p>+1 (555) 012-3456</p>
+            <p>Mon–Fri, 9am–5pm</p>
+          </div>
+        </div>
+      </div>
+      <div class="h-px bg-white/10 my-10"></div>
+      <div class="flex flex-col md:flex-row items-center justify-between gap-4">
+        <p class="text-xs text-gray-400">© <span id="year"></span> Clothing Boutique. All rights reserved.</p>
+        <div class="flex items-center gap-4 text-gray-400">
+          <a href="#" class="hover:text-white">Privacy</a>
+          <a href="#" class="hover:text-white">Terms</a>
+          <a href="#" class="hover:text-white">Returns</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Toast -->
+  <div id="toast" class="fixed bottom-6 left-1/2 -translate-x-1/2 bg-black text-white px-4 py-3 rounded-full shadow-lg opacity-0 pointer-events-none transition-base">
+    Added to bag
+  </div>
+
+  <script>
+    // Utils: make inline SVG "photo" URLs in light-studio style
+    function makeSVG(label, main='#8B1E3F', accent='#BF2C52') {
+      const svg = `
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 600">
+        <defs>
+          <linearGradient id="bg" x1="0" x2="0" y1="0" y2="1">
+            <stop offset="0%" stop-color="#ffffff"/>
+            <stop offset="100%" stop-color="#f2f2f2"/>
+          </linearGradient>
+        </defs>
+        <rect width="600" height="600" fill="url(#bg)"/>
+        <rect y="480" width="600" height="120" fill="#ededed"/>
+        <circle cx="330" cy="150" r="40" fill="#F2C3A4"/>
+        <rect x="300" y="200" width="60" height="30" fill="#F2C3A4"/>
+        <path d="M260 230 C240 360, 440 370, 420 240 L400 230 Z" fill="${main}" opacity="0.95"/>
+        <path d="M280 230 L400 230 L420 480 L260 480 Z" fill="${accent}" opacity="0.9"/>
+        <rect x="260" y="400" width="160" height="60" fill="${main}" opacity="0.9"/>
+        <text x="30" y="560" font-size="20" fill="#333" font-family="Inter, Arial, sans-serif">${label}</text>
+      </svg>`;
+      return 'data:image/svg+xml;utf8,' + encodeURIComponent(svg.trim());
+    }
+
+    // Year
+    document.getElementById('year').textContent = new Date().getFullYear();
+
+    // Mobile menu
+    const menuToggle = document.getElementById('menuToggle');
+    const mobileNav = document.getElementById('mobileNav');
+    menuToggle?.addEventListener('click', () => mobileNav.classList.toggle('hidden'));
+
+    // Simple router
+    const pages = {
+      home: document.getElementById('home'),
+      shop: document.getElementById('shopPage'),
+      about: document.getElementById('aboutPage'),
+      contact: document.getElementById('contactPage')
+    };
+    function showPage(key) {
+      Object.values(pages).forEach(p => p.classList.add('hidden'));
+      pages[key]?.classList.remove('hidden');
+      window.scrollTo({ top: 0, behavior: 'smooth' });
+      mobileNav?.classList.add('hidden');
+    }
+    document.querySelectorAll('[data-route]').forEach(el => {
+      el.addEventListener('click', (e) => {
+        e.preventDefault();
+        const route = el.getAttribute('data-route');
+        const quickFilter = el.getAttribute('data-filter');
+        showPage(route);
+        if (route === 'shop' && quickFilter) {
+          document.querySelectorAll('#shopPage .type').forEach(cb => cb.checked = (cb.value === quickFilter));
+          applyFilters();
+        }
+      });
+    });
+
+    // Mega menu category routing
+    document.querySelectorAll('.category-link').forEach(btn => {
+      btn.addEventListener('click', (e) => {
+        e.preventDefault();
+        const cat = btn.getAttribute('data-category');
+        showPage('shop');
+        // Reset
+        document.querySelectorAll('#shopPage .type').forEach(cb => cb.checked = false);
+        // Basic mapping of headings to existing types
+        if (cat.startsWith('Sarees')) document.querySelector('#shopPage .type[value="Saree"]').checked = true;
+        if (cat.startsWith('Ready to Wear')) document.querySelector('#shopPage .type[value="Kurta"]').checked = true;
+        if (cat.startsWith('Return Gifts')) document.querySelector('#shopPage .type[value="Dupatta"]').checked = true;
+        applyFilters();
+      });
+    });
+    document.getElementById('shopNowBtn')?.addEventListener('click', (e) => { e.preventDefault(); showPage('shop'); });
+
+    // Catalog data (using inline SVG images)
+    const catalog = [
+      { id: 1, name: 'Kanjivaram Silk Saree', price: 180, type: 'Saree', fabric: 'Silk',
+        gallery: [ makeSVG('Kanjivaram Silk Saree','#8B1E3F','#BF2C52'), makeSVG('Kanjivaram Silk Saree','#7A1737','#A72448'), makeSVG('Kanjivaram Silk Saree','#6E0F2F','#9C1E43') ],
+        colors: ['Maroon','Emerald','Gold'],
+        description: 'Traditional silk saree with rich zari work and elegant drape.'
+      },
+      { id: 2, name: 'Cotton Kurta Set', price: 95, type: 'Kurta', fabric: 'Cotton',
+        gallery: [ makeSVG('Cotton Kurta Set','#1c4e80','#2b6aa7'), makeSVG('Cotton Kurta Set','#143a60','#20527e') ],
+        colors: ['Ivory','Navy','Sage'],
+        description: 'Breathable cotton kurta set perfect for daytime comfort.'
+      },
+      { id: 3, name: 'Organza Dupatta', price: 40, type: 'Dupatta', fabric: 'Organza',
+        gallery: [ makeSVG('Organza Dupatta','#cc6e00','#e0861e'), makeSVG('Organza Dupatta','#d28620','#f0a040') ],
+        colors: ['Blush','Ivory','Sky'],
+        description: 'Feathery-light organza dupatta to add a festive sheen.'
+      },
+      { id: 4, name: 'Embroidered Nehru Jacket', price: 120, type: 'Kurta', fabric: 'Silk',
+        gallery: [ makeSVG('Nehru Jacket','#2a2a2a','#4a4a4a'), makeSVG('Nehru Jacket','#3d3d3d','#5b5b5b') ],
+        colors: ['Charcoal','Ivory','Rust'],
+        description: 'Structured jacket with subtle embroidery for elevated layering.'
+      },
+      { id: 5, name: 'Chikankari Kurti', price: 55, type: 'Kurta', fabric: 'Cotton',
+        gallery: [ makeSVG('Chikankari Kurti','#6b8e23','#7fa73a') ],
+        colors: ['White','Powder Blue'],
+        description: 'Delicate chikankari handwork on breathable cotton.'
+      },
+      { id: 6, name: 'Banarasi Silk Saree', price: 190, type: 'Saree', fabric: 'Silk',
+        gallery: [ makeSVG('Banarasi Silk Saree','#8b1e3f','#a92548'), makeSVG('Banarasi Silk Saree','#7c1836','#992141') ],
+        colors: ['Crimson','Forest','Champagne'],
+        description: 'Opulent Banarasi weave with timeless motifs.'
+      },
+      { id: 7, name: 'Light Organza Stole', price: 35, type: 'Dupatta', fabric: 'Organza',
+        gallery: [ makeSVG('Organza Stole','#c06','#e07') ],
+        colors: ['Mint','Lavender','Ivory'],
+        description: 'Gossamer-light organza with soft sheen.'
+      },
+      { id: 8, name: 'Handloom Linen Saree', price: 85, type: 'Saree', fabric: 'Linen',
+        gallery: [ makeSVG('Linen Saree','#6b4f2e','#8a6a45'), makeSVG('Linen Saree','#5d4427','#765d3a') ],
+        colors: ['Sand','Olive','Rose'],
+        description: 'Breathable handloom linen with relaxed drape.'
+      },
+      { id: 9, name: 'Silk Lehenga Set', price: 210, type: 'Lehenga', fabric: 'Silk',
+        gallery: [ makeSVG('Lehenga Set','#cc0066','#e02288'), makeSVG('Lehenga Set','#99004d','#c01570') ],
+        colors: ['Ruby','Teal','Champagne'],
+        description: 'Festive silk lehenga with graceful volume and shine.'
+      }
+    ];
+
+    // Build Home featured products (first 4)
+    const homeProducts = document.getElementById('homeProducts');
+    function buildHomeProducts() {
+      homeProducts.innerHTML = '';
+      catalog.slice(0,4).forEach(item => {
+        const card = document.createElement('div');
+        card.className = 'group bg-white rounded-2xl p-4 border border-gray-100 hover:shadow-md transition-base cursor-pointer';
+        card.innerHTML = `
+          <div class="relative overflow-hidden rounded-xl">
+            <img class="w-full h-full object-cover aspect-square group-hover:-translate-y-1 group-hover:shadow-md transition-base" alt="${item.name}" src="${item.gallery[0]}"/>
+          </div>
+          <div class="pt-4 flex items-start justify-between">
+            <div>
+              <p class="font-semibold">${item.name}</p>
+              <p class="text-gray-600 mt-1">$${item.price}</p>
+            </div>
+            <button class="p-2 rounded-full hover:bg-gray-100 transition-base add-to-cart"
+              data-id="${item.id}" data-name="${item.name}" data-price="${item.price}" data-image="${item.gallery[0]}">
+              <svg class="w-5 h-5 text-gray-900" fill="none" stroke="currentColor" stroke-width="1.8" viewBox="0 0 24 24">
+                <path d="M6 6h15l-1.5 9h-12z"></path>
+                <circle cx="9" cy="20" r="1"></circle>
+                <circle cx="18" cy="20" r="1"></circle>
+              </svg>
+            </button>
+          </div>
+        `;
+        card.addEventListener('click', (e) => {
+          if (e.target.closest('.add-to-cart')) return;
+          openProductDetail(item);
+        });
+        homeProducts.appendChild(card);
+      });
+      bindAddToCartButtons();
+    }
+    buildHomeProducts();
+
+    // Build Shop grid
+    const shopGrid = document.getElementById('shopGrid');
+    function renderShop(items) {
+      shopGrid.innerHTML = '';
+      items.forEach(item => {
+        const card = document.createElement('div');
+        card.className = 'group bg-white rounded-2xl p-4 border border-gray-100 hover:shadow-md transition-base cursor-pointer';
+        card.innerHTML = `
+          <div class="relative overflow-hidden rounded-xl">
+            <img class="w-full h-full object-cover aspect-square group-hover:-translate-y-1 group-hover:shadow-md transition-base" alt="${item.name}" src="${item.gallery[0]}"/>
+          </div>
+          <div class="pt-4 flex items-start justify-between">
+            <div>
+              <p class="font-semibold">${item.name}</p>
+              <p class="text-gray-600 mt-1">$${item.price}</p>
+            </div>
+            <button class="p-2 rounded-full hover:bg-gray-100 transition-base add-to-cart"
+              data-id="${item.id}" data-name="${item.name}" data-price="${item.price}" data-image="${item.gallery[0]}">
+              <svg class="w-5 h-5 text-gray-900" fill="none" stroke="currentColor" stroke-width="1.8" viewBox="0 0 24 24">
+                <path d="M6 6h15l-1.5 9h-12z"></path>
+                <circle cx="9" cy="20" r="1"></circle>
+                <circle cx="18" cy="20" r="1"></circle>
+              </svg>
+            </button>
+          </div>
+        `;
+        card.addEventListener('click', (e) => {
+          if (e.target.closest('.add-to-cart')) return;
+          openProductDetail(item);
+        });
+        shopGrid.appendChild(card);
+      });
+      bindAddToCartButtons();
+    }
+    renderShop(catalog);
+
+    // Filters
+    const priceMinEl = document.getElementById('priceMin');
+    const priceMaxEl = document.getElementById('priceMax');
+    const priceMinValEl = document.getElementById('priceMinVal');
+    const priceMaxValEl = document.getElementById('priceMaxVal');
+
+    function applyFilters() {
+      const min = priceMinEl ? parseInt(priceMinEl.value, 10) : 0;
+      const max = priceMaxEl ? parseInt(priceMaxEl.value, 10) : Infinity;
+
+      const fabrics = Array.from(document.querySelectorAll('#shopPage .fabric:checked')).map(cb => cb.value);
+      const types = Array.from(document.querySelectorAll('#shopPage .type:checked')).map(cb => cb.value);
+
+      const filtered = catalog.filter(item => {
+        const inPrice = item.price >= min && item.price <= max;
+        const inFabric = fabrics.length ? fabrics.includes(item.fabric) : true;
+        const inType = types.length ? types.includes(item.type) : true;
+        return inPrice && inFabric && inType;
+      });
+      renderShop(filtered);
+    }
+
+    function syncPriceLabels(){
+      if (!priceMinEl || !priceMaxEl) return;
+      const m = Math.min(parseInt(priceMinEl.value,10), parseInt(priceMaxEl.value,10));
+      const M = Math.max(parseInt(priceMinEl.value,10), parseInt(priceMaxEl.value,10));
+      priceMinEl.value = m; priceMaxEl.value = M;
+      if (priceMinValEl) priceMinValEl.textContent = m;
+      if (priceMaxValEl) priceMaxValEl.textContent = M;
+    }
+
+    [priceMinEl, priceMaxEl].forEach(el => el && el.addEventListener('input', () => { syncPriceLabels(); applyFilters(); }));
+
+    document.querySelectorAll('#shopPage .fabric, #shopPage .type').forEach(el => {
+      el.addEventListener('change', applyFilters);
+    });
+
+    document.getElementById('clearFilters')?.addEventListener('click', () => {
+      document.querySelectorAll('#shopPage .fabric, #shopPage .type').forEach(cb => cb.checked = false);
+      if (priceMinEl) priceMinEl.value = 0;
+      if (priceMaxEl) priceMaxEl.value = 250;
+      syncPriceLabels();
+      applyFilters();
+    });
+
+    // Initialize labels once DOM is ready
+    syncPriceLabels();
+
+    // Newsletter demo
+    document.getElementById('newsletterForm')?.addEventListener('submit', (e) => {
+      e.preventDefault();
+      document.getElementById('newsletterNote').classList.remove('hidden');
+    });
+
+    // Cart
+    const toast = document.getElementById('toast');
+    const cartDrawer = document.getElementById('cartDrawer');
+    const cartBackdrop = document.getElementById('cartBackdrop');
+    const cartPanel = document.getElementById('cartPanel');
+    const cartItems = document.getElementById('cartItems');
+    const cartSubtotal = document.getElementById('cartSubtotal');
+    const openCartBtns = [document.getElementById('openCart'), document.getElementById('openCartM')];
+    const closeCartBtn = document.getElementById('closeCart');
+    const cartBadges = [document.getElementById('cartBadge'), document.getElementById('cartBadgeM')];
+
+    let cart = []; // {id,name,price,image,qty}
+
+    function updateBadges() {
+      const count = cart.reduce((n, i) => n + i.qty, 0);
+      cartBadges.forEach(b => {
+        if (!b) return;
+        b.textContent = count;
+        b.classList.toggle('hidden', count === 0);
+      });
+    }
+    function showToast(msg = 'Added to bag') {
+      toast.textContent = msg;
+      toast.style.opacity = '1';
+      toast.style.pointerEvents = 'auto';
+      setTimeout(() => {
+        toast.style.opacity = '0';
+        toast.style.pointerEvents = 'none';
+      }, 1200);
+    }
+    function openCart() {
+      cartDrawer.classList.remove('hidden');
+      requestAnimationFrame(() => {
+        cartBackdrop.style.opacity = '1';
+        cartPanel.style.transform = 'translateX(0)';
+      });
+      renderCart();
+      showRecsPopup();
+    }
+    function closeCart() {
+      cartBackdrop.style.opacity = '0';
+      cartPanel.style.transform = 'translateX(100%)';
+      setTimeout(() => cartDrawer.classList.add('hidden'), 250);
+    }
+    openCartBtns.forEach(btn => btn?.addEventListener('click', openCart));
+    closeCartBtn?.addEventListener('click', closeCart);
+    cartBackdrop?.addEventListener('click', closeCart);
+
+    function addToCart({id, name, price, image}) {
+      const existing = cart.find(i => i.id === id);
+      if (existing) existing.qty += 1;
+      else cart.push({ id, name, price: Number(price), image, qty: 1 });
+      updateBadges();
+      showToast();
+      // Open cart and show recs
+      openCart();
+    }
+    function bindAddToCartButtons() {
+      document.querySelectorAll('.add-to-cart').forEach(btn => {
+        btn.addEventListener('click', () => {
+          const id = Number(btn.getAttribute('data-id')) || Math.floor(Math.random()*1e6);
+          addToCart({
+            id,
+            name: btn.getAttribute('data-name'),
+            price: btn.getAttribute('data-price'),
+            image: btn.getAttribute('data-image')
+          });
+        });
+      });
+    }
+    function renderCart() {
+      cartItems.innerHTML = '';
+      if (cart.length === 0) {
+        cartItems.innerHTML = '<p class="text-gray-600">Your bag is empty.</p>';
+        cartSubtotal.textContent = '$0';
+        document.getElementById('recsPopup')?.classList.add('hidden');
+        return;
+      }
+      let subtotal = 0;
+      cart.forEach(item => {
+        subtotal += item.price * item.qty;
+        const row = document.createElement('div');
+        row.className = 'flex items-center gap-4';
+        row.innerHTML = `
+          <div class="w-20 h-20 rounded-xl overflow-hidden bg-gray-100 flex-shrink-0">
+            <img class="w-full h-full object-cover" src="${item.image}" alt="${item.name}"/>
+          </div>
+          <div class="flex-1">
+            <p class="font-medium">${item.name}</p>
+            <p class="text-gray-600 text-sm">$${item.price} • <span class="text-gray-700">Qty:</span> ${item.qty}</p>
+            <div class="mt-2 flex items-center gap-2">
+              <button class="px-2 py-1 rounded bg-gray-100 hover:bg-gray-200 qty-dec">-</button>
+              <button class="px-2 py-1 rounded bg-gray-100 hover:bg-gray-200 qty-inc">+</button>
+              <button class="ml-2 text-sm text-red-600 hover:underline remove">Remove</button>
+            </div>
+          </div>
+        `;
+        row.querySelector('.qty-inc').addEventListener('click', () => { item.qty += 1; updateBadges(); renderCart(); });
+        row.querySelector('.qty-dec').addEventListener('click', () => { item.qty = Math.max(1, item.qty - 1); updateBadges(); renderCart(); });
+        row.querySelector('.remove').addEventListener('click', () => {
+          cart = cart.filter(x => x.id !== item.id);
+          updateBadges(); renderCart();
+        });
+        cartItems.appendChild(row);
+      });
+      cartSubtotal.textContent = '$' + subtotal.toFixed(2);
+      buildRecs();
+    }
+
+    function buildRecs(){
+      const recsPopup = document.getElementById('recsPopup');
+      const recsWrap = document.getElementById('recsWrap');
+      const recsClose = document.getElementById('recsClose');
+      if (!recsPopup || !recsWrap) return;
+      recsWrap.innerHTML = '';
+      const last = cart[cart.length - 1];
+      // pick 2 different items of different type if possible
+      const suggestions = catalog.filter(c => c.id !== last.id && c.type !== last.type).slice(0,2);
+      suggestions.forEach(s => {
+        const card = document.createElement('div');
+        card.className = 'border border-gray-200 rounded-xl overflow-hidden bg-white';
+        card.innerHTML = `
+          <img src="${s.gallery[0]}" alt="${s.name}" class="w-full h-24 object-cover"/>
+          <div class="p-2">
+            <p class="text-sm font-medium line-clamp-1">${s.name}</p>
+            <div class="flex items-center justify-between mt-1">
+              <span class="text-sm text-gray-700">$${s.price}</span>
+              <button class="text-xs px-2 py-1 rounded-full bg-black text-white add-rec">Add</button>
+            </div>
+          </div>`;
+        card.querySelector('.add-rec').addEventListener('click', () => {
+          addToCart({ id: s.id, name: s.name, price: s.price, image: s.gallery[0] });
+        });
+        recsWrap.appendChild(card);
+      });
+      recsPopup.classList.remove('hidden');
+      recsClose?.addEventListener('click', () => recsPopup.classList.add('hidden'));
+    }
+
+    function showRecsPopup(){
+      buildRecs();
+    }
+
+    // Product Details Drawer
+    const productDrawer = document.getElementById('productDrawer');
+    const pdBackdrop = document.getElementById('pdBackdrop');
+    const pdPanel = document.getElementById('pdPanel');
+    const pdClose = document.getElementById('pdClose');
+    const pdBack = document.getElementById('pdBack');
+    const pdName = document.getElementById('pdName');
+    const pdTitle = document.getElementById('pdTitle');
+    const pdPrice = document.getElementById('pdPrice');
+    const pdMaterial = document.getElementById('pdMaterial');
+    const pdDesc = document.getElementById('pdDesc');
+    const pdColors = document.getElementById('pdColors');
+    const pdAdd = document.getElementById('pdAdd');
+    const pdOpenCart = document.getElementById('pdOpenCart');
+    const pdMain = document.getElementById('pdMain');
+    const pdThumbs = document.getElementById('pdThumbs');
+    const pdPrev = document.getElementById('pdPrev');
+    const pdNext = document.getElementById('pdNext');
+
+    let currentGallery = [];
+    let currentIndex = 0;
+    let currentProduct = null;
+    let selectedColor = null;
+
+    function openProductDetail(item) {
+      currentProduct = item;
+      currentGallery = item.gallery && item.gallery.length ? item.gallery : [item.image];
+      currentIndex = 0;
+      pdMain.src = currentGallery[0];
+      pdThumbs.innerHTML = '';
+      currentGallery.slice(0,4).forEach((src, i) => {
+        const t = document.createElement('button');
+        t.className = 'rounded-xl overflow-hidden border border-gray-200 focus:outline-none';
+        t.innerHTML = `<img class="w-full h-20 object-cover" src="${src}" alt="thumb ${i+1}"/>`;
+        t.addEventListener('click', () => { currentIndex = i; pdMain.src = currentGallery[currentIndex]; });
+        pdThumbs.appendChild(t);
+      });
+
+      pdName.textContent = item.name;
+      pdTitle.textContent = item.name;
+      pdPrice.textContent = '$' + item.price;
+      pdMaterial.textContent = 'Material: ' + item.fabric;
+      pdDesc.textContent = item.description || 'Beautifully crafted with attention to detail and comfort.';
+
+      // Colors
+      pdColors.innerHTML = '';
+      const colors = item.colors && item.colors.length ? item.colors : ['Standard'];
+      selectedColor = colors[0];
+      colors.forEach(c => {
+        const b = document.createElement('button');
+        b.className = 'px-3 py-1 rounded-full border border-gray-300 hover:bg-gray-50';
+        b.textContent = c;
+        b.addEventListener('click', () => { selectedColor = c; showToast('Color: ' + c); });
+        pdColors.appendChild(b);
+      });
+
+      // Actions
+      pdAdd.onclick = () => {
+        addToCart({ id: item.id, name: item.name + (selectedColor ? ' - ' + selectedColor : ''), price: item.price, image: currentGallery[0] });
+      };
+      pdOpenCart.onclick = () => { openCart(); };
+
+      // Open
+      productDrawer.classList.remove('hidden');
+      requestAnimationFrame(() => {
+        pdBackdrop.style.opacity = '1';
+        pdPanel.style.transform = 'translateX(0)';
+      });
+    }
+    function closeProductDetail() {
+      pdBackdrop.style.opacity = '0';
+      pdPanel.style.transform = 'translateX(100%)';
+      setTimeout(() => productDrawer.classList.add('hidden'), 250);
+    }
+    pdBackdrop?.addEventListener('click', closeProductDetail);
+    pdClose?.addEventListener('click', closeProductDetail);
+    pdBack?.addEventListener('click', closeProductDetail);
+    pdPrev?.addEventListener('click', () => {
+      if (!currentGallery.length) return;
+      currentIndex = (currentIndex - 1 + currentGallery.length) % currentGallery.length;
+      pdMain.src = currentGallery[currentIndex];
+    });
+    pdNext?.addEventListener('click', () => {
+      if (!currentGallery.length) return;
+      currentIndex = (currentIndex + 1) % currentGallery.length;
+      pdMain.src = currentGallery[currentIndex];
+    });
+
+    // Zoom controls
+    (function(){
+      const wrap = document.getElementById('zoomWrap');
+      const lens = document.getElementById('zoomLens');
+      if (!wrap || !pdMain) return;
+      let scale = 1;
+      function setPos(e){
+        const rect = wrap.getBoundingClientRect();
+        const x = ((e.clientX || (e.touches && e.touches[0].clientX)) - rect.left) / rect.width;
+        const y = ((e.clientY || (e.touches && e.touches[0].clientY)) - rect.top) / rect.height;
+        const tx = (0.5 - x) * (rect.width * (scale - 1));
+        const ty = (0.5 - y) * (rect.height * (scale - 1));
+        pdMain.style.transform = `scale(${scale}) translate(${tx/scale}px, ${ty/scale}px)`;
+      }
+      function show(){ lens && (lens.classList.remove('hidden')); }
+      function hide(){ lens && (lens.classList.add('hidden')); pdMain.style.transform = 'scale(1)'; scale = 1; }
+      wrap.addEventListener('mousemove', (e)=>{ if(scale>1){ setPos(e); }});
+      wrap.addEventListener('mouseenter', ()=>{ if(scale>1) show(); });
+      wrap.addEventListener('mouseleave', hide);
+      wrap.addEventListener('wheel', (e)=>{ e.preventDefault(); scale = Math.min(3, Math.max(1, scale + (e.deltaY<0?0.2:-0.2))); if(scale===1) hide(); else { show(); setPos(e); } }, { passive:false });
+      // Touch pinch not implemented; tap to toggle simple zoom
+      wrap.addEventListener('click', (e)=>{ if(scale===1){ scale=2; show(); setPos(e);} else { hide(); }});
+    })();
+
+    // If URL hash indicates a page, show it
+    const hash = window.location.hash.replace('#','');
+    if (['home','shopPage','aboutPage','contactPage'].includes(hash)) {
+      const map = { home: 'home', shopPage: 'shop', aboutPage: 'about', contactPage: 'contact' };
+      showPage(map[hash]);
+    }
+
+  </script>
+<script src="/_sdk/b67df6528afa6d57.editing_sdk.js" integrity="sha512-ObK/O8PVNdvePOE833JpZI0oKCuD4dnU+D+5PMwY4U3o0z4/Q4l01EB77zMvgnmBiBHpDMCJTfVYFVrzp7r1lw=="></script></body>
+</html>

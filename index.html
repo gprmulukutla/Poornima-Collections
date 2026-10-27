@@ -1170,6 +1170,18 @@
   );
 
   console.log("Supabase client initialized.");
+supabaseClient
+  .from("profiles")
+  .select("id")
+  .limit(1)
+  .then(({ data, error }) => {
+    if (error) {
+      console.error("Database test failed:", error.message);
+    } else {
+      console.log("Database test succeeded:", data);
+    }
+  });
 </script>
+
 </body>
 </html>

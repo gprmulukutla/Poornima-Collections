@@ -1157,5 +1157,19 @@
     }
 
   </script>
-<script src="/_sdk/b67df6528afa6d57.editing_sdk.js" integrity="sha512-ObK/O8PVNdvePOE833JpZI0oKCuD4dnU+D+5PMwY4U3o0z4/Q4l01EB77zMvgnmBiBHpDMCJTfVYFVrzp7r1lw=="></script></body>
+<script src="/_sdk/b67df6528afa6d57.editing_sdk.js" integrity="sha512-ObK/O8PVNdvePOE833JpZI0oKCuD4dnU+D+5PMwY4U3o0z4/Q4l01EB77zMvgnmBiBHpDMCJTfVYFVrzp7r1lw=="></script>
+<!-- Supabase connection -->
+<script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+<script>
+  const SUPABASE_URL = "https://ewlebojbsiebvzkjuonb.supabase.co/rest/v1/";
+  const SUPABASE_PUBLISHABLE_KEY = "sb_publishable_nNMG4aC3-bVSjF4y3J_L9w_Xk3qRU-a";
+
+  const supabaseClient = window.supabase.createClient(
+    SUPABASE_URL,
+    SUPABASE_PUBLISHABLE_KEY
+  );
+
+  console.log("Supabase client initialized.");
+</script>
+</body>
 </html>
